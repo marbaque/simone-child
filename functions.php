@@ -50,31 +50,31 @@ function my_acf_init_block_types()
 	// Check function exists.
 	if (function_exists('acf_register_block_type')) {
 
-		// registrar un bloque de agenda
+		// Registrar un bloque de agenda
 		acf_register_block_type(array(
 			'name'              => 'agenda',
 			'title'             => __('Agenda de visita'),
 			'description'       => __('Un bloque para agenda de visitas.'),
 			'render_template'   => 'template-parts/blocks/agenda/agenda.php',
-			'enqueue_style' 	=> get_stylesheet_directory_uri()  . '/template-parts/blocks/agenda/agenda.css',
+			'enqueue_style' 	  => get_stylesheet_directory_uri()  . '/template-parts/blocks/agenda/agenda.css?v=1',
 			'category'          => 'formatting',
 			'icon'              => 'calendar-alt',
 			'keywords'          => array('agenda', 'evento'),
     ));
     
-    // registrar un bloque de agenda con dos enlaces
+    // Registrar un bloque de agenda con dos enlaces a reuniones
 		acf_register_block_type(array(
 			'name'              => 'agenda-reus',
 			'title'             => __('Agenda de visita con reuniones'),
 			'description'       => __('Un bloque para agenda de visitas con dos enlaces.'),
 			'render_template'   => 'template-parts/blocks/agenda-reus/agenda-reus.php',
-			'enqueue_style' 	=> get_stylesheet_directory_uri()  . '/template-parts/blocks/agenda-reus/agenda-reus.css',
+			'enqueue_style' 	  => get_stylesheet_directory_uri()  . '/template-parts/blocks/agenda-reus/agenda-reus.css?v=1',
 			'category'          => 'formatting',
 			'icon'              => 'calendar-alt',
 			'keywords'          => array('agenda', 'evento', 'zoom'),
 		));
 
-		// register a testimonial block.
+		// Register a testimonial block.
 		acf_register_block_type(array(
 			'name'              => 'testimonial',
 			'title'             => __('Testimonio'),
