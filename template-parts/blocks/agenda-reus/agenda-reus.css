@@ -21,7 +21,7 @@ Estilos para el bloque de agenda.
     font-weight: 300;
 }
 
-.evento {
+.agenda-reus .evento {
     display: flex;
     flex-wrap: wrap;
     background: #f4f4f4;
@@ -31,7 +31,7 @@ Estilos para el bloque de agenda.
     font-family: "Lato", sans-serif;
 }
 
-.evento-time {
+.agenda-reus .evento .evento-time {
     padding: calc(1em + 35px) 0.5em 1em;
     flex: 0 1 20%;
     text-align: center;
@@ -44,24 +44,24 @@ Estilos para el bloque de agenda.
     background-color: #daf9e5;
 }
 
-.evento-info {
+.agenda-reus .evento .evento-info {
     padding: 1em;
     flex: 2 0 80%;
 }
 
-.evento-info .evento-title {
+.agenda-reus .evento .evento-info .evento-title {
     font-size: 1em!important;
     font-weight: 900;
     display: block;
 }
 
-.evento-link {
+.agenda-reus .evento .evento-link {
     flex: 1 1 100%;
     text-align: center;
     font-size: 0.9em;
     display: flex;
 }
-.evento-link a {
+.agenda-reus .evento .evento-link a {
     color: #0986bb;
     flex: 1 1 50%;
     padding: calc(1.5em + 24px) 0.5em 1em;
@@ -72,20 +72,20 @@ Estilos para el bloque de agenda.
     background-color: rgb(213, 225, 242);
     text-decoration: none;
 }
-.evento-link a.link2 {
+.agenda-reus .evento .evento-link a.link2 {
     background-image: url(img/video-duotone.svg);
 }
 
-
+/* Estilos responsive */
 @media screen and (min-width: 700px) {
-    .evento-info {
+    .agenda-reus .evento .evento-info {
         flex: 1 1 60%;
     }
-    .evento-link {
+    .agenda-reus .evento .evento-link {
         flex: 1 1 20%;
         flex-wrap: wrap;
     }
-    .evento-link a {
+    .agenda-reus .evento .evento-link a {
         flex: 1 1 100%;
     }
 }
