@@ -1,0 +1,1 @@
+<p>Hola, {moderator_name},<br /><br />{member_name} ha solicitado unirse a {group_name}.<br />Puedes ver su perfil aquí: {profile_link}.<br /><br />Para aprobar/rechazar esta solicitud, haga clic en el siguiente enlace:<br /><a style="color: #3ba1da; text-decoration: none;" href="{groups_request_tab_url}">{groups_request_tab_url}</a></p>

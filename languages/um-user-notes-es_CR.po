@@ -1,0 +1,345 @@
+# Copyright (C) 2020 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - User Notes plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - User Notes 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-user-notes\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-09-02T17:36:34+03:00\n"
+"PO-Revision-Date: 2020-09-28 19:55-0600\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Domain: um-user-notes\n"
+"Last-Translator: Mario Badilla <mario.badilla@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_CR\n"
+
+#. Plugin Name of the plugin
+msgid "Ultimate Member - User Notes"
+msgstr "Ultimate Member - User Notes"
+
+#. Plugin URI of the plugin
+msgid "http://ultimatemember.com/extensions/user-notes"
+msgstr "http://ultimatemember.com/extensions/user-notes"
+
+#. Description of the plugin
+msgid "Let users create notes via their profile."
+msgstr "Permita a los usuarios crear notas por medio de su perfil."
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr "Ultimate Member"
+
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr "http://ultimatemember.com/"
+
+#: includes/admin/class-admin.php:39
+msgid "User Notes License Key"
+msgstr "User Notes License Key"
+
+#: includes/admin/class-admin.php:47 includes/admin/class-admin.php:99
+msgid "User Notes"
+msgstr "User Notes"
+
+#: includes/admin/class-admin.php:53
+msgid "Notes per page"
+msgstr "Notas por página"
+
+#: includes/admin/class-admin.php:60
+msgid "Thumbnail image size"
+msgstr "Tamaño de la miniatura"
+
+#: includes/admin/class-admin.php:67
+msgid "Excerpt length"
+msgstr "Tamaño del resumen"
+
+#: includes/admin/class-admin.php:74
+msgid "Read more text"
+msgstr "Texto de leer más"
+
+#: includes/admin/class-admin.php:81
+msgid "Load more text"
+msgstr "Texto de cargar más"
+
+#: includes/admin/templates/role/notes.php:14
+msgid "Disable notes feature?"
+msgstr "¿Desactivar la herramienta de Notas?"
+
+#: includes/admin/templates/role/notes.php:15
+msgid "Can this role have notes feature?"
+msgstr "¿Este rol puede tener la herramienta de notas?"
+
+#: includes/core/class-activity.php:260
+msgid "New note"
+msgstr "Nueva nota"
+
+#: includes/core/class-ajax.php:65 includes/core/class-ajax.php:160
+#: includes/core/class-ajax.php:174 includes/core/class-ajax.php:250
+#: includes/core/class-ajax.php:273 includes/core/class-ajax.php:296
+#: includes/core/class-ajax.php:346 includes/core/class-ajax.php:402
+msgid "Invalid request"
+msgstr "Solicitud inválida"
+
+#: includes/core/class-ajax.php:69 includes/core/class-ajax.php:178
+#: includes/core/class-ajax.php:277 includes/core/class-ajax.php:350
+msgid "Invalid user"
+msgstr "Usuario inválido"
+
+#: includes/core/class-ajax.php:73 includes/core/class-ajax.php:182
+msgid "Title is required"
+msgstr "El título es obligatorio"
+
+#: includes/core/class-ajax.php:77 includes/core/class-ajax.php:186
+msgid "Content is required"
+msgstr "El contenido es obligatorio"
+
+#: includes/core/class-ajax.php:81 includes/core/class-ajax.php:190
+msgid "Please select visibility option."
+msgstr "Por favor elija una opción de visibilidad."
+
+#: includes/core/class-ajax.php:86
+msgid "You are not authorized to update this note."
+msgstr "No tiene autorización para actualizar esta nota."
+
+#: includes/core/class-ajax.php:90 includes/core/class-ajax.php:194
+msgid "%s files are not allowed"
+msgstr "Los archivos %s no están permitidos"
+
+#: includes/core/class-ajax.php:154 includes/core/class-ajax.php:244
+msgid "Problem uploading file."
+msgstr "Problema subiendo archivo."
+
+#: includes/core/class-ajax.php:282
+msgid "You are not authorized to delete this note."
+msgstr "No tiene autorización para borrar esta nota."
+
+#: includes/core/class-ajax.php:307
+msgid "You are not authorized to view this note."
+msgstr "No tiene autorización para ver esta nota."
+
+#: includes/core/class-ajax.php:355 includes/core/class-ajax.php:360
+msgid "You are not authorized to edit this note."
+msgstr "No tiene autorización para editar esta nota."
+
+#: includes/core/class-posttype.php:30
+msgctxt "Post Type General Name"
+msgid "Notes"
+msgstr "Notas"
+
+#: includes/core/class-posttype.php:31
+msgctxt "Post Type Singular Name"
+msgid "Note"
+msgstr "Nota"
+
+#: includes/core/class-posttype.php:32 includes/core/class-posttype.php:33
+#: includes/core/class-profile.php:54
+msgid "Notes"
+msgstr "Notas"
+
+#: includes/core/class-posttype.php:34
+msgid "Item Archives"
+msgstr "Archivo de ítems"
+
+#: includes/core/class-posttype.php:35
+msgid "Item Attributes"
+msgstr "Atributos de ítem"
+
+#: includes/core/class-posttype.php:36
+msgid "Parent Item:"
+msgstr "Ítem principal:"
+
+#: includes/core/class-posttype.php:37
+msgid "All Items"
+msgstr "Todos los ítems"
+
+#: includes/core/class-posttype.php:38
+msgid "Add New Item"
+msgstr "Añadir ítem nuevo"
+
+#: includes/core/class-posttype.php:39
+msgid "Add New"
+msgstr "Añadir nuevo"
+
+#: includes/core/class-posttype.php:40
+msgid "New Item"
+msgstr "Ítem nuevo"
+
+#: includes/core/class-posttype.php:41
+msgid "Edit Item"
+msgstr "Editar ítem"
+
+#: includes/core/class-posttype.php:42
+msgid "Update Item"
+msgstr "Actualizar ítem"
+
+#: includes/core/class-posttype.php:43
+msgid "View Item"
+msgstr "Ver ítem"
+
+#: includes/core/class-posttype.php:44
+msgid "View Items"
+msgstr "Ver ítems"
+
+#: includes/core/class-posttype.php:45
+msgid "Search Item"
+msgstr "Buscar ítem"
+
+#: includes/core/class-posttype.php:46
+msgid "Not found"
+msgstr "No encontrado"
+
+#: includes/core/class-posttype.php:47
+msgid "Not found in Trash"
+msgstr "No se encontró en la papelera"
+
+#: includes/core/class-posttype.php:48
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+#: includes/core/class-posttype.php:49
+msgid "Set featured image"
+msgstr "Destacar imagen"
+
+#: includes/core/class-posttype.php:50
+msgid "Remove featured image"
+msgstr "Quitar imagen destacada"
+
+#: includes/core/class-posttype.php:51
+msgid "Use as featured image"
+msgstr "Usar como imagen destacada"
+
+#: includes/core/class-posttype.php:52
+msgid "Insert into item"
+msgstr "Insertar en ítem"
+
+#: includes/core/class-posttype.php:53
+msgid "Uploaded to this item"
+msgstr "Subido a este ítem"
+
+#: includes/core/class-posttype.php:54
+msgid "Items list"
+msgstr "Lista de ítems"
+
+#: includes/core/class-posttype.php:55
+msgid "Items list navigation"
+msgstr "Lista de navegación de ítems"
+
+#: includes/core/class-posttype.php:56
+msgid "Filter items list"
+msgstr "Filtrar lista de ítems"
+
+#: includes/core/class-posttype.php:60
+msgid "Note"
+msgstr "Nota"
+
+#: includes/core/class-posttype.php:61
+msgid "User notes"
+msgstr "Notas de usuario"
+
+#: includes/core/class-profile.php:68
+msgid "View notes"
+msgstr "Ver notas"
+
+#: includes/core/class-profile.php:69
+msgid "Add note"
+msgstr "Añadir nota"
+
+#: includes/core/class-setup.php:33
+msgid "Read more"
+msgstr "Leer más"
+
+#: includes/core/class-setup.php:34
+msgid "Load more"
+msgstr "Cargar más"
+
+#: templates/activity/new-note.php:3
+msgid "just created a new "
+msgstr "acaba de crear una nueva "
+
+#: templates/activity/new-note.php:3
+msgid "note"
+msgstr "nota"
+
+#: templates/profile/add.php:7 templates/profile/edit.php:19
+msgid "Remove Photo"
+msgstr "Quitar foto"
+
+#: templates/profile/add.php:10 templates/profile/add.php:12
+#: templates/profile/edit.php:24 templates/profile/edit.php:26
+msgid "Add Photo"
+msgstr "Añadir foto"
+
+#: templates/profile/add.php:11 templates/profile/edit.php:25
+#: templates/profile/edit.php:26
+msgid "Edit Photo"
+msgstr "Editar foto"
+
+#: templates/profile/add.php:20
+msgid "Title"
+msgstr "Título"
+
+#: templates/profile/add.php:42 templates/profile/add.php:57
+#: templates/profile/edit.php:61
+msgid "Publish"
+msgstr "Publicar"
+
+#: templates/profile/add.php:43 templates/profile/edit.php:62
+msgid "Draft"
+msgstr "Borrador"
+
+#: templates/profile/add.php:47 templates/profile/edit.php:66
+msgid "Only me"
+msgstr "Solo yo"
+
+#: templates/profile/add.php:48 templates/profile/edit.php:67
+msgid "Everyone"
+msgstr "Todos"
+
+#: templates/profile/edit.php:48
+msgid "Write Something.."
+msgstr "Escribir algo…"
+
+#: templates/profile/edit.php:77
+msgid "Update"
+msgstr "Actualizar"
+
+#: templates/profile/edit.php:81
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: templates/profile/empty.php:3
+msgid "No notes to display"
+msgstr "No hay notas para mostrar"
+
+#: templates/profile/modal.php:4
+msgid "Close"
+msgstr "Cerrar"
+
+#: templates/profile/view.php:32
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/profile/view.php:38
+msgid "Delete"
+msgstr "Borrar"
+
+#: um-user-notes.php:48 um-user-notes.php:66
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"La <strong>%s</strong> extensión requiere que plugin Ultimate Member esté "
+"activado para funcionar correctamente. Lo puedes descargar <a href="
+"\"https://wordpress.org/plugins/ultimate-member\">aquí</a>"
+
+#: assets/js/um-user-notes.js:136
+msgid "Note successfully updated."
+msgstr "Nota actualizada correctamente."
+
+#: assets/js/um-user-notes.js:212
+msgid "Want to delete note?"
+msgstr "¿Quiere borrar la nota?"

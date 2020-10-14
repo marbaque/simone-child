@@ -1,0 +1,1 @@
+<p>La solicitud para unirse a "{group_name}" ha sido aprobada.<br /><br />Para ver un grupo, haga clic en el enlace: <a style="color: #3ba1da; text-decoration: none;" href="{group_url}">{group_url}</a></p>

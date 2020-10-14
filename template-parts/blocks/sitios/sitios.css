@@ -1,0 +1,66 @@
+/*
+
+Estilos para el bloque Galería de sitios.
+
+*/
+
+
+/* bloque de sitios repeater */
+.sitios-container {
+    width: 100%;
+    display: block;
+}
+.sitios-container a {
+    text-decoration: none;
+    color: initial;
+    transition: 0.1s all;
+}
+.item-sitio {
+    background: #f4f4f4;
+    width: 100%;
+    margin-bottom: 1em;
+    background: white;
+    border: 1px solid lightgrey;
+}
+.item-sitio:hover {
+    border: 1px solid #0947a4;
+}
+.item-sitio:active {
+    background: rgb(238, 226, 86);
+    border: 1px solid #0947a4;
+}
+.item-sitio .portada-sitio {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.item-sitio .portada-sitio img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+.item-sitio .portada-sitio img:hover {
+    opacity: 0.8;
+}
+.item-sitio .texto-sitio {
+    padding: 1em 1em;
+    line-height: 1.2;
+}
+.texto-sitio .nombre-sitio a:hover {
+    border-bottom: 4px solid #0947a4;
+}
+.texto-sitio .info-sitio {
+    font-size: 0.9em;
+}
+
+@media screen and (min-width: 700px) {
+    .sitios-container {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .item-sitio {
+        flex: 0 0 48%;
+        margin: 0 1% 1em;
+    }
+}

@@ -1,0 +1,170 @@
+/*
+ Theme Name:   simone-child
+ Theme URI:    http://multimedia.uned.ac.cr
+ Description:  Tema secundario de Simone
+ Author:       Mario Badilla
+ Author URI:   http://multimedia.uned.ac.cr
+ Template:     simone
+ Version:      1.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  simonechild
+*/
+
+/* Front page */
+.home .content-area {
+    float: none;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 78rem;
+}
+.label-carrera {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.carrera {
+    font-size: 2em;
+    line-height: 1.35;
+}
+.carrera span {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 0.5em;
+    
+}
+.escuela {
+    font-size: 2.5rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: grey;
+}
+.logo-escuela {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.logo-escuela img {
+    width: 200px;
+    max-width: 50%;
+    margin: 1em auto 0;
+}
+.fechas {
+    font-size: 2.5rem;
+    font-family: "Lato", sans-serif;
+    color: grey;
+    margin-top: 2em;
+}
+.fechas .fa{
+    display: block;
+}
+.galeria {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 2em 1em;
+}
+.galeria .gallery {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.galeria .gallery .gallery-item {
+    width: 48%;
+    margin: 10px 1%;
+    background-color: transparent;
+}
+@media screen and (min-width: 960px) {
+    .galeria {
+        margin-left: -100px;
+        margin-right: -100px;
+        display: block;
+        overflow-y: auto;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 400px) {
+    .galeria .gallery .gallery-item {
+        width: initial;
+    }
+}
+.wp-block-image.size-large {
+    margin: 1em 0 2em;
+}
+.wp-block-image figcaption {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8em;
+    color: gray;
+    padding: 0.5em;
+    margin: 0 0 0.5em;
+}
+/* Imágnes */
+
+/* um-menu */
+ul.um-menu li {
+    display: block;
+    padding: 1.3em 1em;
+    font-size: 14px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    line-height: 1.3em;
+    color: white;
+    color: hsl(0, 0%, 100%);
+}
+
+/* footer */
+.uned-icon {
+    margin-bottom: -0.25em;
+    margin-right: 2px;
+}
+
+/* entry-footer */
+.edit-link a {
+    color: darkgray;
+}
+
+/* um-user-bookmarks */
+.um-user-bookmarks-button {
+    margin-left: auto;
+    display: inline;
+    color: darkgray !important;
+    text-decoration: none !important;
+}
+
+/* migajas personalizadas */
+.migajas {
+    font-family: "Lato", sans-serif;
+    margin: 1em auto;
+    max-width: 780px;
+}
+.migajas ul {
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0 40px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    max-width: 100%;
+}
+.migajas ul li {
+    padding: 10px;
+    background: #f4f4f4;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.migajas .separator {
+    padding: 10px 2px;
+    background: #f4f4f4;
+}
+.migajas>ul>li:nth-child(1) {
+    flex: 0 0 auto;
+}
+.migajas ul li a {
+    color: inherit;
+}

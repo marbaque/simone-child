@@ -1,0 +1,376 @@
+{
+    "key": "group_5f3efb2a8b2e1",
+    "title": "Información general",
+    "fields": [
+        {
+            "key": "field_5f419c9a3afd6",
+            "label": "Mensaje",
+            "name": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Aquí se configura la página principal del sitio.\r\nComplete los campos como se le indica. Hay campos que son obligatorios.",
+            "new_lines": "wpautop",
+            "esc_html": 0
+        },
+        {
+            "key": "field_5f3f019ef0fe5",
+            "label": "Escuela y carrera",
+            "name": "escuela_y_carrera",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5f3efb73c507e",
+                    "label": "Escuela",
+                    "name": "escuela",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "ece": "Escuela de Ciencias de la Educación",
+                        "ecen": "Escuela Ciencias Exactas y Naturales",
+                        "ecsh": "Escuela de Ciencias Sociales y Humanidades",
+                        "eca": "Escuela de Ciencias de la Administración",
+                        "otra": "Otra"
+                    },
+                    "default_value": false,
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 1,
+                    "ajax": 0,
+                    "return_format": "array",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5f3efe9dad78d",
+                    "label": "Carrera ECA",
+                    "name": "carrera-eca",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f3efb73c507e",
+                                "operator": "==",
+                                "value": "eca"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Administración de empresas - Diplomado": "Administración de empresas - Diplomado",
+                        "Administración de Empresas con Énfasis en Banca y Finanzas - Bachillerato": "Administración de Empresas con Énfasis en Banca y Finanzas - Bachillerato",
+                        "Administración de Empresas con Énfasis en Banca y Finanzas - Licenciatura": "Administración de Empresas con Énfasis en Banca y Finanzas - Licenciatura",
+                        "Administración de Empresas con Énfasis en Contaduría - Bachillerato": "Administración de Empresas con Énfasis en Contaduría - Bachillerato",
+                        "Administración de Empresas con Énfasis en Contaduría - Licenciatura": "Administración de Empresas con Énfasis en Contaduría - Licenciatura",
+                        "Administración de Empresas con Énfasis en Dirección de Empresas - Bachillerato": "Administración de Empresas con Énfasis en Dirección de Empresas - Bachillerato",
+                        "Administración de Empresas con Énfasis en Dirección de Empresas - Licenciatura": "Administración de Empresas con Énfasis en Dirección de Empresas - Licenciatura",
+                        "Administración de Empresas con Énfasis en Mercadeo - Bachillerato": "Administración de Empresas con Énfasis en Mercadeo - Bachillerato",
+                        "Administración de Empresas con Énfasis en Mercadeo - Licenciatura": "Administración de Empresas con Énfasis en Mercadeo - Licenciatura",
+                        "Administración de Empresas con Énfasis en Producción - Bachillerato": "Administración de Empresas con Énfasis en Producción - Bachillerato",
+                        "Administración de Empresas con Énfasis en Producción - Licenciatura": "Administración de Empresas con Énfasis en Producción - Licenciatura",
+                        "Administración de Empresas con Énfasis en Recursos Humanos - Bachillerato": "Administración de Empresas con Énfasis en Recursos Humanos - Bachillerato",
+                        "Administración de Empresas con Énfasis en Recursos Humanos - Licenciatura": "Administración de Empresas con Énfasis en Recursos Humanos - Licenciatura",
+                        "Administración de Empresas con Énfasis en Negocios Internacionales - Bachillerato": "Administración de Empresas con Énfasis en Negocios Internacionales - Bachillerato",
+                        "Administración de Empresas con Énfasis en Negocios Internacionales - Licenciatura": "Administración de Empresas con Énfasis en Negocios Internacionales - Licenciatura",
+                        "Maestría en Administración de Negocios": "Maestría en Administración de Negocios",
+                        "Maestría Profesional en Auditoría Empresarial": "Maestría Profesional en Auditoría Empresarial",
+                        "Maestría Profesional en Administración Medios de Comunicación": "Maestría Profesional en Administración Medios de Comunicación",
+                        "Doctorado en Ciencias de la Administración": "Doctorado en Ciencias de la Administración",
+                        "Maestría Profesional en Auditoría Gubernamental": "Maestría Profesional en Auditoría Gubernamental",
+                        "Maestría en Gerencia y Negociaciones Internacionales": "Maestría en Gerencia y Negociaciones Internacionales",
+                        "Maestría Profesional en Gestión de la Calidad en la Educación Superior": "Maestría Profesional en Gestión de la Calidad en la Educación Superior"
+                    },
+                    "default_value": [],
+                    "allow_null": 1,
+                    "multiple": 1,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5f3efb3c209fa",
+                    "label": "Carrera ECSH",
+                    "name": "carrera-ecsh",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f3efb73c507e",
+                                "operator": "==",
+                                "value": "ecsh"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Bibliotecología y Nuevas Tecnologías de Información y Comunicación": "Bibliotecología y Nuevas Tecnologías de Información y Comunicación",
+                        "Bibliotecología, Bibliotecas Educativas y Centros de Recursos para el Aprendizaje": "Bibliotecología, Bibliotecas Educativas y Centros de Recursos para el Aprendizaje",
+                        "Ciencias Criminológicas": "Ciencias Criminológicas",
+                        "Ciencias Policiales": "Ciencias Policiales",
+                        "Ejecución y Docencia Musical con Énfasis en Instrumento": "Ejecución y Docencia Musical con Énfasis en Instrumento",
+                        "Enseñanza del Francés": "Enseñanza del Francés",
+                        "Enseñanza del Inglés para I y II ciclos": "Enseñanza del Inglés para I y II ciclos",
+                        "Estudios Universitarios": "Estudios Universitarios",
+                        "Gestión Secretarial de la Oficina": "Gestión Secretarial de la Oficina",
+                        "Diplomado y Bachillerato en Gestión Turística Sostenible": "Diplomado y Bachillerato en Gestión Turística Sostenible",
+                        "Licenciatura en Gestión y Gerencia del Turismo Sostenible": "Licenciatura en Gestión y Gerencia del Turismo Sostenible",
+                        "Maestría Profesional en Derecho del Trabajo y Seguridad Social": "Maestría Profesional en Derecho del Trabajo y Seguridad Social",
+                        "Maestría Profesional en Propiedad Intelectual": "Maestría Profesional en Propiedad Intelectual",
+                        "Maestría Profesional en Criminología": "Maestría Profesional en Criminología",
+                        "Maestría Profesional en Derecho Constitucional": "Maestría Profesional en Derecho Constitucional",
+                        "Maestría Profesional  en Derecho Económico con énfasis en Comercio Internacional": "Maestría Profesional  en Derecho Económico con énfasis en Comercio Internacional",
+                        "Maestría Profesional en Derechos Humanos": "Maestría Profesional en Derechos Humanos",
+                        "Maestría Profesional en Estudio de las Adicciones": "Maestría Profesional en Estudio de las Adicciones",
+                        "Maestría Profesional en Estudio de la Violencia Social y Familiar": "Maestría Profesional en Estudio de la Violencia Social y Familiar",
+                        "Doctorado en Derecho": "Doctorado en Derecho"
+                    },
+                    "default_value": [],
+                    "allow_null": 1,
+                    "multiple": 1,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5f3f03c8c25df",
+                    "label": "Carrera ECE",
+                    "name": "carrera-ece",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f3efb73c507e",
+                                "operator": "==",
+                                "value": "ece"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Bachiilerato en Administración Educativa": "Bachiilerato en Administración Educativa",
+                        "Licenciatura en Administración Educativa": "Licenciatura en Administración Educativa",
+                        "Licenciatura en Docencia": "Licenciatura en Docencia",
+                        "Bachillerato en Informática Educativa": "Bachillerato en Informática Educativa",
+                        "Licenciatura en Informática Educativa": "Licenciatura en Informática Educativa",
+                        "Bachillerato en Educación Especial": "Bachillerato en Educación Especial",
+                        "Licenciatura en Educación Especial": "Licenciatura en Educación Especial",
+                        "Diplomado, Bachillerato y Licenciatura en Educación General Básica I y II Ciclos": "Diplomado, Bachillerato y Licenciatura en Educación General Básica I y II Ciclos",
+                        "Diplomado, Bachillerato y Licenciatura en Educación Preescolar y Licenciatura en Estimulación y Corrección del Lenguaje": "Diplomado, Bachillerato y Licenciatura en Educación Preescolar y Licenciatura en Estimulación y Corrección del Lenguaje",
+                        "Licenciatura en Estudios Sociales y Educación Cívica\u2028Doctorado en Educación": "Licenciatura en Estudios Sociales y Educación Cívica\u2028Doctorado en Educación",
+                        "Maestría Académica en Educación a Distancia y Aprendizaje en Línea": "Maestría Académica en Educación a Distancia y Aprendizaje en Línea",
+                        "Maestría Profesional en Administración Educativa": "Maestría Profesional en Administración Educativa",
+                        "Maestría Profesional en Psicopedagogía": "Maestría Profesional en Psicopedagogía",
+                        "Maestría Profesional en Tecnología Educativa con énfasis en Producción de Recursos Didácticos": "Maestría Profesional en Tecnología Educativa con énfasis en Producción de Recursos Didácticos"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 1,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                },
+                {
+                    "key": "field_5f3f046ac25e0",
+                    "label": "Carrera ECEN",
+                    "name": "carrera-ecen",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f3efb73c507e",
+                                "operator": "==",
+                                "value": "ecen"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "Administración de Empresas Agropecuarias": "Administración de Empresas Agropecuarias",
+                        "Administración de Servicios de Salud": "Administración de Servicios de Salud",
+                        "Enseñanza de la Matemática": "Enseñanza de la Matemática",
+                        "Enseñanza de las Ciencias Naturales": "Enseñanza de las Ciencias Naturales",
+                        "Ingeniería Agroindustrial": "Ingeniería Agroindustrial",
+                        "Ingeniería Agronómica": "Ingeniería Agronómica",
+                        "Ingeniería Industrial": "Ingeniería Industrial",
+                        "Ingeniería Informática": "Ingeniería Informática",
+                        "Manejo de Recursos Naturales": "Manejo de Recursos Naturales",
+                        "Registros y Estadísticas de Salud": "Registros y Estadísticas de Salud",
+                        "Ingeniería en Telecomunicaciones": "Ingeniería en Telecomunicaciones"
+                    },
+                    "default_value": [],
+                    "allow_null": 1,
+                    "multiple": 1,
+                    "ui": 1,
+                    "ajax": 1,
+                    "return_format": "value",
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5f481d01ee8aa",
+            "label": "Fecha de inicio",
+            "name": "fecha_inicio",
+            "type": "date_picker",
+            "instructions": "Seleccione el día de inicio de la visita.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y",
+            "return_format": "j \\d\\e F, Y",
+            "first_day": 0
+        },
+        {
+            "key": "field_5f481f42ee8ab",
+            "label": "Fecha final",
+            "name": "fecha_final",
+            "type": "date_picker",
+            "instructions": "Seleccione el día final de la visita.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y",
+            "return_format": "j \\d\\e F, Y",
+            "first_day": 0
+        },
+        {
+            "key": "field_5f419af569057",
+            "label": "Descripción",
+            "name": "desc",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_5f419c6e27bb8",
+            "label": "Galería",
+            "name": "galeria",
+            "type": "gallery",
+            "instructions": "Puede hacer una galería de imágenes para mostrar en la página principal.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "id",
+            "preview_size": "medium",
+            "insert": "append",
+            "library": "all",
+            "min": "",
+            "max": 20,
+            "min_width": 799,
+            "min_height": "",
+            "min_size": "",
+            "max_width": 2000,
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5f73310fdb9f9",
+            "label": "Pie de página",
+            "name": "creditos",
+            "type": "wysiwyg",
+            "instructions": "Aquí se puede añadir los créditos del sitio o un directorio de usuarios registrados en el sitio.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "visual",
+            "toolbar": "basic",
+            "media_upload": 1,
+            "delay": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "visita-general-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1601431456
+}

@@ -1,0 +1,297 @@
+# Copyright (C) 2020 Ultimate Member
+# This file is distributed under the same license as the Ultimate Member - User Bookmarks plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - User Bookmarks 2.0.5\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-user-"
+"bookmarks\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-08-12T16:19:20+03:00\n"
+"PO-Revision-Date: 2020-09-16 15:13-0600\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Domain: um-user-bookmarks\n"
+"Last-Translator: Mario Badilla <mario.badilla@gmail.com>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_CR\n"
+
+#. Plugin Name of the plugin
+msgid "Ultimate Member - User Bookmarks"
+msgstr "Ultimate Member - User Bookmarks"
+
+#. Plugin URI of the plugin
+msgid "https://ultimatemember.com/extensions/user-bookmarks/"
+msgstr "https://ultimatemember.com/extensions/user-bookmarks/"
+
+#. Description of the plugin
+msgid "Let users bookmark posts, pages and custom post types"
+msgstr ""
+"Permita que usuarios marquen entradas, páginas y tipos de contenidos "
+"personalizados"
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr "Ultimate Member"
+
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr "http://ultimatemember.com/"
+
+#: includes/admin/class-admin.php:38
+msgid "User Bookmarks License Key"
+msgstr "User Bookmarks License Key"
+
+#: includes/admin/class-admin.php:47 includes/admin/class-admin.php:169
+msgid "User Bookmarks"
+msgstr "User Bookmarks"
+
+#: includes/admin/class-admin.php:54
+msgid "Bottom"
+msgstr "Abajo"
+
+#: includes/admin/class-admin.php:55
+msgid "Top"
+msgstr "Arriba"
+
+#: includes/admin/class-admin.php:57
+msgid "Bookmark icon position"
+msgstr "Posición del icono del marcador"
+
+#: includes/admin/class-admin.php:66
+msgid "Enable bookmark"
+msgstr "Activar marcador"
+
+#: includes/admin/class-admin.php:72
+msgid "Enable bookmark on archive pages"
+msgstr "Activar marcador en páginas de archivo"
+
+#: includes/admin/class-admin.php:78
+msgid "Add bookmark button text"
+msgstr "Añadir texto del botón del marcador"
+
+#: includes/admin/class-admin.php:85
+msgid "Remove bookmark button text"
+msgstr "Quitar texto del botón del marcador"
+
+#: includes/admin/class-admin.php:92
+msgid "Folders text (Plural)"
+msgstr "Texto de carpetas (Plurarl)"
+
+#: includes/admin/class-admin.php:99
+msgid "Folder text (Singular)"
+msgstr "Texto de carpeta (Singular)"
+
+#: includes/admin/class-admin.php:106
+msgid "Bookmarked Icon (css class)"
+msgstr "Icono de elementos marcados (clase css)"
+
+#: includes/admin/class-admin.php:113
+msgid "Regular Icon (css class)"
+msgstr "Icono regular (css class)"
+
+#: includes/admin/templates/bookmarks/metabox.php:12
+msgid "Disable Bookmark"
+msgstr "Desactivar marcador"
+
+#: includes/admin/templates/role/bookmark.php:15
+msgid "Enable bookmark feature?"
+msgstr "¿Activar función de marcador?"
+
+#: includes/admin/templates/role/bookmark.php:16
+msgid "Can this role have bookmark feature?"
+msgstr "¿Este rol de usuario puede tener marcadores?"
+
+#: includes/core/class-bookmark-ajax.php:59
+#: includes/core/class-bookmark-ajax.php:130
+#: includes/core/class-bookmark-ajax.php:141
+#: includes/core/class-bookmark-ajax.php:187
+#: includes/core/class-bookmark-ajax.php:232
+#: includes/core/class-bookmark-ajax.php:256
+#: includes/core/class-bookmark-ajax.php:289
+#: includes/core/class-bookmark-ajax.php:336
+#: includes/core/class-bookmark-ajax.php:351
+#: includes/core/class-bookmark-ajax.php:355
+msgid "Invalid request"
+msgstr "Solicitud inválida"
+
+#: includes/core/class-bookmark-ajax.php:74
+#: includes/core/class-bookmark-ajax.php:191
+#: includes/core/class-bookmark-ajax.php:359
+msgid "%s name is required"
+msgstr "El nombre de %s es obligatorio"
+
+#: includes/core/class-bookmark-ajax.php:81
+#: includes/core/class-bookmark-ajax.php:204
+#: includes/core/class-bookmark-ajax.php:374
+msgid "%s is already exists"
+msgstr "%s ya existe"
+
+#: includes/core/class-bookmark-ajax.php:101
+msgid "%s isn't exists"
+msgstr "%s no existe"
+
+#: includes/core/class-bookmark-ajax.php:149
+msgid "Not found in bookmarks"
+msgstr "No está en los marcadores"
+
+#: includes/core/class-bookmark-ajax.php:222
+msgid "Invalid %s"
+msgstr "%s inválido"
+
+#: includes/core/class-bookmark-ajax.php:241
+#: includes/core/class-bookmark-ajax.php:265
+#: includes/core/class-bookmark-ajax.php:299
+#: includes/core/class-bookmark-ajax.php:367
+msgid "%s doesn't exists"
+msgstr "%s no existe"
+
+#: includes/core/class-bookmark-ajax.php:285
+#: includes/core/class-bookmark-ajax.php:332
+msgid "Invalid request."
+msgstr "Solicitud inválida."
+
+#: includes/core/class-bookmark-privacy.php:36
+msgid "Everyone"
+msgstr "Todos"
+
+#: includes/core/class-bookmark-privacy.php:37
+msgid "Only me"
+msgstr "Solo yo"
+
+#: includes/core/class-bookmark-privacy.php:43
+#: includes/core/class-bookmark-privacy.php:46
+msgid "Who can see user bookmarks tab?"
+msgstr "¿Quién puede ver la pestaña de marcadores?"
+
+#: includes/core/class-bookmark-profile.php:34
+msgid "Bookmarks"
+msgstr "Marcadores"
+
+#: includes/core/class-bookmark-profile.php:59
+msgid "All"
+msgstr "Todos"
+
+#: includes/core/class-bookmark-profile.php:78
+#: includes/core/class-bookmark-profile.php:93
+msgid "You do not have permission to view bookmark"
+msgstr "Usted no tiene permiso para ver marcadores"
+
+#: includes/core/class-bookmark-profile.php:158
+#: includes/core/class-bookmark-profile.php:183
+#: includes/core/class-bookmark-shortcode.php:71
+#: templates/profile/folder-view.php:30
+msgid "No bookmarks have been added."
+msgstr "No se ha añadido marcadores."
+
+#: includes/core/class-bookmark-setup.php:31
+msgid "Bookmark"
+msgstr "Marcar"
+
+#: includes/core/class-bookmark-setup.php:32
+msgid "Remove bookmark"
+msgstr "Quitar marcador"
+
+#: includes/core/class-bookmark-setup.php:33
+msgid "Folders"
+msgstr "Carpetas"
+
+#: includes/core/class-bookmark-setup.php:34
+msgid "Folder"
+msgstr "Carpeta"
+
+#: templates/modal.php:4 assets/js/um-user-bookmarks.js:148
+msgid "Loading.."
+msgstr "Cargando.."
+
+#: templates/profile/edit-folder.php:11
+msgid "Edit folder"
+msgstr "Editar carpeta"
+
+#: templates/profile/edit-folder.php:23
+#: templates/profile/edit-folder/form.php:6
+msgid "%s title"
+msgstr "Título de %s"
+
+#: templates/profile/edit-folder.php:25
+#: templates/profile/edit-folder/form.php:8
+msgid "%s title is required"
+msgstr "El título de %s es obligatorio"
+
+#: templates/profile/edit-folder.php:30
+#: templates/profile/edit-folder/form.php:13
+#: templates/profile/folder-view/add-folder.php:21
+#: templates/select-folder.php:47
+msgid "Private"
+msgstr "Privado"
+
+#: templates/profile/edit-folder.php:35
+#: templates/profile/edit-folder/form.php:18
+msgid "Update"
+msgstr "Actualizar"
+
+#: templates/profile/folder-view/add-folder.php:7
+msgid "Add %s"
+msgstr "Añadir %s"
+
+#: templates/profile/folder-view/add-folder.php:14
+#: templates/select-folder.php:40
+msgid "%s name"
+msgstr "Nombre de %s"
+
+#: templates/profile/folder-view/add-folder.php:16
+#: templates/select-folder.php:42
+msgid "%s name is required."
+msgstr "El nombre de %s es obligatorio."
+
+#: templates/profile/folder-view/add-folder.php:25
+#: templates/select-folder.php:51
+msgid "Create"
+msgstr "Crear"
+
+#: templates/profile/folder-view/folder.php:14
+msgid "saved"
+msgstr "guardado"
+
+#: templates/profile/single-folder.php:35
+msgid "Folder is empty"
+msgstr "La carpeta está vacía"
+
+#: templates/profile/single-folder/bookmark-item.php:23
+msgid "Remove"
+msgstr "Quitar"
+
+#: templates/profile/single-folder/dropdown.php:19
+msgid "Edit"
+msgstr "Editar"
+
+#: templates/profile/single-folder/dropdown.php:24
+msgid "Delete folder and its content?"
+msgstr "¿Borrar la carpeta y todo su contenido?"
+
+#: templates/profile/single-folder/dropdown.php:27
+msgid "Delete"
+msgstr "Quitar"
+
+#: templates/profile/single-folder/dropdown.php:32
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: templates/select-folder.php:6
+msgid "Select %s"
+msgstr "Seleccionar %s"
+
+#: um-user-bookmarks.php:48 um-user-bookmarks.php:67
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"La extensión <strong>%s</strong> requiere que el plugin Ultimate Member "
+"esté activado para funcionar correctamente. Lo puede descargar aquí <a href="
+"\"https://wordpress.org/plugins/ultimate-member\">aquí</a>"
+
+#: assets/js/um-user-bookmarks.js:107
+msgid "Successful"
+msgstr "Éxito"

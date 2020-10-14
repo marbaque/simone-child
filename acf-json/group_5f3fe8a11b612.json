@@ -1,0 +1,166 @@
+{
+    "key": "group_5f3fe8a11b612",
+    "title": "Bloque: Agenda",
+    "fields": [
+        {
+            "key": "field_5f3feb3478da7",
+            "label": "Título",
+            "name": "titulo_agenda",
+            "type": "text",
+            "instructions": "Agregue un título a la agenda.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Día 1: Visita de pares",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f3feaec0d1d0",
+            "label": "Fecha",
+            "name": "fecha_agenda",
+            "type": "date_picker",
+            "instructions": "El día de la reunión.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y",
+            "return_format": "l j de F, Y",
+            "first_day": 0
+        },
+        {
+            "key": "field_5f3fe99c0d1cd",
+            "label": "Ítems de la agenda",
+            "name": "items_agenda",
+            "type": "repeater",
+            "instructions": "Añada la información de los diferentes eventos de la visita.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5f3fe9c80d1ce",
+            "min": 1,
+            "max": 12,
+            "layout": "row",
+            "button_label": "Añadir un evento",
+            "sub_fields": [
+                {
+                    "key": "field_5f3fe9c80d1ce",
+                    "label": "Evento",
+                    "name": "item_evento",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "100",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5f3fe9f90d1cf",
+                    "label": "Inicio",
+                    "name": "hora1_evento",
+                    "type": "time_picker",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "30",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "g:i a",
+                    "return_format": "g:i a"
+                },
+                {
+                    "key": "field_5f3fec1be3388",
+                    "label": "Final",
+                    "name": "hora2_evento",
+                    "type": "time_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "20",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_format": "g:i a",
+                    "return_format": "g:i a"
+                },
+                {
+                    "key": "field_5f3fecb9ec57e",
+                    "label": "Info",
+                    "name": "info_evento",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": 4,
+                    "new_lines": "br"
+                },
+                {
+                    "key": "field_5f3fed570bdd2",
+                    "label": "Enlace",
+                    "name": "pagina_evento",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/agenda"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1600902282
+}

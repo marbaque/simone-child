@@ -1,0 +1,1 @@
+<p>Hola {group_invitation_guest_name},<br /><br />{group_invitation_host_name} le ha invitado a unirse a"{group_name}".<br /><br />Para confirmar/rechazar esta invitación, haga clic en el siguiente enlace: <br /><a style="color: #3ba1da; text-decoration: none;" href="{group_url}">{group_url}</a></p>
