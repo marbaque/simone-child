@@ -181,7 +181,7 @@ function simonechild_breadcrumbs() {
       $parent_id  = $post->post_parent;
       $breadcrumbs = array();
       while ($parent_id) {
-        $page = get_page($parent_id);
+        $page = get_post($parent_id);
         $breadcrumbs[] = '<li><a href="' . get_permalink($page->ID) . '">' . get_the_title($page->ID) . '</a></li>';
         $parent_id  = $page->post_parent;
       }
