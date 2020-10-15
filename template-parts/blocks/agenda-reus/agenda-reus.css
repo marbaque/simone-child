@@ -78,6 +78,9 @@ Estilos para el bloque de agenda.
 
 /* Estilos responsive */
 @media screen and (min-width: 700px) {
+    .agenda-reus .evento {
+        flex-wrap: nowrap;
+    }
     .agenda-reus .evento .evento-info {
         flex: 1 1 60%;
     }
