@@ -26,7 +26,7 @@
             "label": "Fecha",
             "name": "fecha_agenda",
             "type": "date_picker",
-            "instructions": "El día de la reunión.",
+            "instructions": "El día de las reuniones.",
             "required": 1,
             "conditional_logic": 0,
             "wrapper": {
@@ -51,10 +51,10 @@
                 "class": "",
                 "id": ""
             },
-            "collapsed": "field_5f3fe9c80d1ce",
+            "collapsed": "field_5f8606adc9894",
             "min": 1,
-            "max": 12,
-            "layout": "row",
+            "max": 10,
+            "layout": "block",
             "button_label": "Añadir un evento",
             "sub_fields": [
                 {
@@ -177,5 +177,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1602719299
+    "modified": 1614708982
 }
