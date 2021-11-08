@@ -62,12 +62,18 @@ $agendaItems = get_field('items_agenda') ?: 'Aquí van los ítems de la agenda';
 					<?php if ($link1 || $link2) :
 						echo '<div class="evento-link">';
 						if ($link1) :
+							$link1_url = $link1['url'];
 							$link1_title = $link1['title'] ?: 'Información';
-							echo '<a href="' . $link1['url'] . '" class="link1" title="Enlace a ' . $link1['title'] . '">' .  $link1['title'] . '</a>';
+							$link1_target = $link1['target'] ? $link1['target'] : '_self';
+
+							echo '<a href="' . $link1_url . '" target="' . $link1_target . '" class="link1" title="Enlace a ' . $link1_title . '">' .  $link1_title . '</a>';
 						endif;
 						if ($link2) :
-							$link2_title = $link2['title'] ?: 'Enlace';
-							echo '<a href="' . $link2['url'] . '" class="link2" title="Enlace a ' . $link2_title . '">' .  $link2_title . '</a>';
+							$link2_url = $link2['url'];
+							$link2_title = $link2['title'] ?: 'Información';
+							$link2_target = $link2['target'] ? $link2['target'] : '_self';
+
+							echo '<a href="' . $link2_url . '" target="' . $link2_target . '" class="link2" title="Enlace a ' . $link2_title . '">' .  $link2_title . '</a>';
 						endif;
 						echo '</div>';
 					endif; ?>

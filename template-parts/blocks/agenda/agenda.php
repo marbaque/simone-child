@@ -53,11 +53,19 @@ $agendaItems = get_field('items_agenda') ?: 'Aquí van los ítems de la agenda';
 						<span class="evento-title"><?php the_sub_field('item_evento'); ?></span>
 						<span class="evento-desc"><?php the_sub_field('info_evento'); ?></span>
 					</div>
-
-					<?php if (get_sub_field('pagina_evento')) : ?>
+					<?php $link = get_sub_field('pagina_evento'); ?>
+					
+					<?php if ($link) : ?>
 						<div class="evento-link">
-							<a href="<?php echo get_sub_field('pagina_evento')['url']; ?>" title="Más información del evento">
-								<?php echo get_sub_field('pagina_evento')['title']; ?></a>
+						
+						<?php if ($link) :
+							$link_url = $link['url'];
+							$link_title = $link['title'] ?: 'Información';
+							$link_target = $link['target'] ? $link['target'] : '_self';
+						endif; ?>
+
+							<a href="<?= $link_url; ?>" title="<?= $link_title; ?>" target="<?= $link_target; ?>">
+								<?= $link_title; ?></a>
 						</div>
 					<?php endif; ?>
 
