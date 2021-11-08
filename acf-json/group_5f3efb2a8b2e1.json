@@ -188,7 +188,7 @@
                         "id": ""
                     },
                     "choices": {
-                        "Bachiilerato en Administración Educativa": "Bachiilerato en Administración Educativa",
+                        "Bachillerato en Administración Educativa": "Bachillerato en Administración Educativa",
                         "Licenciatura en Administración Educativa": "Licenciatura en Administración Educativa",
                         "Licenciatura en Docencia": "Licenciatura en Docencia",
                         "Bachillerato en Informática Educativa": "Bachillerato en Informática Educativa",
@@ -196,7 +196,8 @@
                         "Bachillerato en Educación Especial": "Bachillerato en Educación Especial",
                         "Licenciatura en Educación Especial": "Licenciatura en Educación Especial",
                         "Diplomado, Bachillerato y Licenciatura en Educación General Básica I y II Ciclos": "Diplomado, Bachillerato y Licenciatura en Educación General Básica I y II Ciclos",
-                        "Diplomado, Bachillerato y Licenciatura en Educación Preescolar y Licenciatura en Estimulación y Corrección del Lenguaje": "Diplomado, Bachillerato y Licenciatura en Educación Preescolar y Licenciatura en Estimulación y Corrección del Lenguaje",
+                        "Diplomado, Bachillerato y Licenciatura en Educación Preescolar": "Diplomado, Bachillerato y Licenciatura en Educación Preescolar",
+                        "Licenciatura en Estimulación y Corrección del Lenguaje": "Licenciatura en Estimulación y Corrección del Lenguaje",
                         "Licenciatura en Estudios Sociales y Educación Cívica\u2028Doctorado en Educación": "Licenciatura en Estudios Sociales y Educación Cívica\u2028Doctorado en Educación",
                         "Maestría Académica en Educación a Distancia y Aprendizaje en Línea": "Maestría Académica en Educación a Distancia y Aprendizaje en Línea",
                         "Maestría Profesional en Administración Educativa": "Maestría Profesional en Administración Educativa",
@@ -269,7 +270,7 @@
                 "id": ""
             },
             "display_format": "d\/m\/Y",
-            "return_format": "j \\d\\e F, Y",
+            "return_format": "F j, Y",
             "first_day": 0
         },
         {
@@ -286,7 +287,7 @@
                 "id": ""
             },
             "display_format": "d\/m\/Y",
-            "return_format": "j \\d\\e F, Y",
+            "return_format": "F j, Y",
             "first_day": 0
         },
         {
@@ -372,5 +373,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1601431456
+    "modified": 1634248851
 }

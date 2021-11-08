@@ -30,9 +30,15 @@ if (!empty($block['align'])) {
 		<?php while (the_repeater_field('mu_sitios')) : ?>
 			<div class="item-sitio">
 
-				<?php $link = get_sub_field('mu_enlace'); ?>
+				<?php 
+				$link = get_sub_field('mu_enlace');
+				if( $link ): 
+					$link_url = $link['url'];
+					$link_title = $link['title'];
+					$link_target = $link['target'] ? $link['target'] : '_self';
+				endif; ?>
 
-				<a href="<?php echo $link; ?>">
+				<a href="<?= $link_url; ?>" target="<?= $link_target; ?>" title="<?= $link_title; ?>">
 					<div class="portada-sitio">
 
 						<?php
@@ -50,7 +56,7 @@ if (!empty($block['align'])) {
 				<div class="texto-sitio">
 
 					<h3 class="nombre-sitio">
-						<a href="<?php echo $link; ?>">
+					<a href="<?= $link_url; ?>" target="<?= $link_target; ?>" title="<?= $link_title; ?>">
 							<?php the_sub_field('mu_nombre'); ?>
 						</a>
 					</h3>
