@@ -99,6 +99,7 @@
                         "Administración de Empresas con Énfasis en Recursos Humanos - Licenciatura": "Administración de Empresas con Énfasis en Recursos Humanos - Licenciatura",
                         "Administración de Empresas con Énfasis en Negocios Internacionales - Bachillerato": "Administración de Empresas con Énfasis en Negocios Internacionales - Bachillerato",
                         "Administración de Empresas con Énfasis en Negocios Internacionales - Licenciatura": "Administración de Empresas con Énfasis en Negocios Internacionales - Licenciatura",
+                        "Conglomerado de Carreras de la Escuela de Ciencias de la Administración": "Conglomerado de Carreras de la Escuela de Ciencias de la Administración",
                         "Maestría en Administración de Negocios": "Maestría en Administración de Negocios",
                         "Maestría Profesional en Auditoría Empresarial": "Maestría Profesional en Auditoría Empresarial",
                         "Maestría Profesional en Administración Medios de Comunicación": "Maestría Profesional en Administración Medios de Comunicación",
@@ -262,7 +263,7 @@
             "name": "fecha_inicio",
             "type": "date_picker",
             "instructions": "Seleccione el día de inicio de la visita.",
-            "required": 1,
+            "required": 0,
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
@@ -270,7 +271,7 @@
                 "id": ""
             },
             "display_format": "d\/m\/Y",
-            "return_format": "F j, Y",
+            "return_format": "j \\d\\e F",
             "first_day": 0
         },
         {
@@ -287,7 +288,7 @@
                 "id": ""
             },
             "display_format": "d\/m\/Y",
-            "return_format": "F j, Y",
+            "return_format": "j \\d\\e F, Y",
             "first_day": 0
         },
         {
@@ -373,5 +374,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1634248851
+    "modified": 1636394327
 }
